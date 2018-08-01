@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pobierz_szablon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "build": "babel server --out-dir build --presets=es2015 && webpack",
+  "license": "ISC",
+  "dependencies": {
+    "connect-rest": "^3.0.6",
+    "https": "^1.0.0",
+    "soap": "^0.23.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "got": "^8.3.2",
+    "mysql": "^2.16.0",
+    "request": "^2.87.0",
+    "typescript-eslint-parser": "^16.0.1"
+  }
+}
